@@ -14,6 +14,12 @@ const MaxPacketSizeIPv6 = 1232
 // MaxCongestionWindowPackets is the maximum congestion window in packet.
 const MaxCongestionWindowPackets = 10000
 
+// DefaultTCPMSS is the default maximum packet size used in the Linux TCP implementation.
+const DefaultTCPMSS ByteCount = 1460
+
+// DefaultBBRMaxCongestionWindow is the default for the max congestion window in BBR algorithm
+const DefaultBBRMaxCongestionWindow = 2000 * DefaultTCPMSS
+
 // MaxUndecryptablePackets limits the number of undecryptable packets that are queued in the session.
 const MaxUndecryptablePackets = 33
 

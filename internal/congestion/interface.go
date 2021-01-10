@@ -6,6 +6,10 @@ import (
 	"github.com/For-ACGN/quic-go/internal/protocol"
 )
 
+type CongestionEvent interface {
+	OnCongestionEvent(priorInFlight protocol.ByteCount, eventTime time.Time, ackedPackets, lostPackets []*protocol.Packet)
+}
+
 // A SendAlgorithm performs congestion control
 type SendAlgorithm interface {
 	TimeUntilSend(bytesInFlight protocol.ByteCount) time.Time
