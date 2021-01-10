@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
+	quic "github.com/For-ACGN/quic-go"
+	mockquic "github.com/For-ACGN/quic-go/internal/mocks/quic"
 	"github.com/golang/mock/gomock"
-	quic "github.com/lucas-clemente/quic-go"
-	mockquic "github.com/lucas-clemente/quic-go/internal/mocks/quic"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

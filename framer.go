@@ -3,10 +3,10 @@ package quic
 import (
 	"sync"
 
-	"github.com/lucas-clemente/quic-go/internal/ackhandler"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/wire"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/For-ACGN/quic-go/internal/ackhandler"
+	"github.com/For-ACGN/quic-go/internal/protocol"
+	"github.com/For-ACGN/quic-go/internal/wire"
+	"github.com/For-ACGN/quic-go/quicvarint"
 )
 
 type framer interface {

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/lucas-clemente/quic-go/internal/flowcontrol"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/qerr"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/For-ACGN/quic-go/internal/flowcontrol"
+	"github.com/For-ACGN/quic-go/internal/protocol"
+	"github.com/For-ACGN/quic-go/internal/qerr"
+	"github.com/For-ACGN/quic-go/internal/wire"
 )
 
 type streamError struct {

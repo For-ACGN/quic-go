@@ -6,8 +6,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/For-ACGN/quic-go/internal/protocol"
+	"github.com/For-ACGN/quic-go/quicvarint"
 )
 
 type byteReader interface {

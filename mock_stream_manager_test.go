@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
+	protocol "github.com/For-ACGN/quic-go/internal/protocol"
+	wire "github.com/For-ACGN/quic-go/internal/wire"
 	gomock "github.com/golang/mock/gomock"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
-	wire "github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 // MockStreamManager is a mock of StreamManager interface

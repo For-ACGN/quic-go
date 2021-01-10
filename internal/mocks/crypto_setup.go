@@ -7,10 +7,10 @@ package mocks
 import (
 	reflect "reflect"
 
+	handshake "github.com/For-ACGN/quic-go/internal/handshake"
+	protocol "github.com/For-ACGN/quic-go/internal/protocol"
+	qtls "github.com/For-ACGN/quic-go/internal/qtls"
 	gomock "github.com/golang/mock/gomock"
-	handshake "github.com/lucas-clemente/quic-go/internal/handshake"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
-	qtls "github.com/lucas-clemente/quic-go/internal/qtls"
 )
 
 // MockCryptoSetup is a mock of CryptoSetup interface

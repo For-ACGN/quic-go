@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/For-ACGN/quic-go/internal/protocol"
+	"github.com/For-ACGN/quic-go/quicvarint"
 )
 
 // A CryptoFrame is a CRYPTO frame

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/For-ACGN/quic-go/internal/flowcontrol"
+	"github.com/For-ACGN/quic-go/internal/mocks"
+	"github.com/For-ACGN/quic-go/internal/protocol"
+	"github.com/For-ACGN/quic-go/internal/wire"
 	"github.com/golang/mock/gomock"
-	"github.com/lucas-clemente/quic-go/internal/flowcontrol"
-	"github.com/lucas-clemente/quic-go/internal/mocks"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/wire"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
